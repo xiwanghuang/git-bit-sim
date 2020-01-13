@@ -1,0 +1,69 @@
+﻿  pch.cpp
+  bittorrent.cpp
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(3): error C2653: “Tracker”: 不是类或命名空间名称
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(3): error C2065: “Msg”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(3): error C2065: “msg”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(4): error C2448: “receive”: 函数样式初始值设定项类似函数定义
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(8): error C2653: “Tracker”: 不是类或命名空间名称
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(9): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(10): warning C4508: “Tracker”: 函数应返回一个值；假定“void”返回类型
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(12): error C2653: “Sender”: 不是类或命名空间名称
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(12): error C2065: “Peer”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(12): error C2065: “src”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(12): error C2065: “dst”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(12): error C2062: 意外的类型“int”
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(13): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(13): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+p:\bittorrent仿真\bit_sim\bit_sim\bittorrent.cpp(16): error C2653: “Sender”: 不是类或命名空间名称
+  bit_sim.cpp
+  global.cpp
+  msg.cpp
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(5): error C2653: “Msg”: 不是类或命名空间名称
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(5): error C2065: “BasePeer”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(5): error C2065: “src”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(5): error C2065: “dst”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(5): error C2065: “MsgType”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(5): error C2146: 语法错误: 缺少“)”(在标识符“msgType”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(6): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(6): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(14): error C2653: “Msg”: 不是类或命名空间名称
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(14): error C2065: “BasePeer”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(14): error C2065: “src”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(14): error C2065: “dst”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(14): error C2065: “MsgType”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(14): error C2146: 语法错误: 缺少“)”(在标识符“msgType”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(15): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(15): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(20): error C2653: “Msg”: 不是类或命名空间名称
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(20): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(21): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(22): error C2065: “m_src”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(22): error C2065: “msg”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(23): error C2065: “m_dst”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(23): error C2065: “msg”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(24): error C2065: “m_msgType”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(24): error C2065: “msg”: 未声明的标识符
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(25): warning C4508: “Msg”: 函数应返回一个值；假定“void”返回类型
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(27): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(27): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(27): error C2825: 'MsgScheduler': 当后面跟“::”时必须为类或命名空间
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(27): error C2510: “MsgScheduler”:“::”的左边必须是类/结构/联合
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(28): error C2059: 语法错误:“{”
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(28): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(28): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(32): error C2589: “int”:“::”右边的非法标记
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(32): error C2825: 'MsgScheduler': 当后面跟“::”时必须为类或命名空间
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(32): error C2510: “MsgScheduler”:“::”的左边必须是类/结构/联合
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(34): error C2589: “int”:“::”右边的非法标记
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(34): error C2062: 意外的类型“unknown-type”
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(37): error C2589: “int”:“::”右边的非法标记
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(37): error C2825: 'MsgScheduler': 当后面跟“::”时必须为类或命名空间
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(37): error C2510: “MsgScheduler”:“::”的左边必须是类/结构/联合
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(37): error C2146: 语法错误: 缺少“)”(在标识符“msg”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(38): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(38): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(42): error C2825: 'MsgScheduler': 当后面跟“::”时必须为类或命名空间
+p:\bittorrent仿真\bit_sim\bit_sim\msg.cpp(42): error C2510: “MsgScheduler”:“::”的左边必须是类/结构/联合
+  正在生成代码...
