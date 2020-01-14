@@ -38,5 +38,28 @@ void GlobalConfig::initGlobalData(double filesize, int peerNum)
 	GlobalConfig::m_peerNum = peerNum;
 	GlobalConfig::m_fileSize = filesize * 1024;		//KB
 	GlobalConfig::m_blockSize = 256;	//KB
-	GlobalConfig::m_perRate
+	GlobalConfig::m_perRate = 25;
+	GlobalConfig::m_blockNum = (int)(GlobalConfig::m_fileSize/GlobalConfig::m_blockSize);
+	
+	// ´ø¿í
+	GlobalConfig::m_maxUpload = 1000;
+	GlobalConfig::m_maxDownload = 3000;
+
+	GlobalConfig::m_minUpload = 384;
+	GlobalConfig::m_minDownload = 1500;
+
+	
+	GlobalConfig::m_neighborNum = 60;
+	GlobalConfig::m_neighborFreshPeriod = 30;
+	GlobalConfig::m_interestCheckPeriod = 10;
+	GlobalConfig::unchoke_num = 5;
+
+	GlobalConfig::m_simStep = 5; //ms
+	
+	if (GlobalConfig::m_peerNum <= GlobalConfig::m_neighborNum)
+	{
+
+	}
+
+	std::vector<Peer*> GlobalConfig::m_allPeers = std::vector<Peer*>((int)GlobalConfig::m_peerNum);
 }
